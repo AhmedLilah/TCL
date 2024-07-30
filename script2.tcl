@@ -1,11 +1,3 @@
-# #!
-# proc factorial {a} {
-#         if {$a == 1 || $a == 0} {
-#                 return 1;
-#         }
-#         return [expr $a * [factorial [expr $a-1]]];
-# }
-
 # for {set i 10} {$i > -1} {incr i -1} {
 #         puts [factorial $i];
 # }

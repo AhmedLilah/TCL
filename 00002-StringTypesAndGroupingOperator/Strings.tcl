@@ -9,7 +9,18 @@ set gStr {Hello, World!\n$integer1 + $integer2 = [expr $integer1 + $integer2]}
 ##      this defines an excaped string.
 ##              C-like string excape characters.
 ##              Varialbe formmatting using the '$' symbol.
+set integer1 20
+set integer2 30
 set fStr "Hello, World!\n$integer1 + $integer2 = [expr $integer1 + $integer2]" 
 ##  this creates this string that is formatted as follows
 ##      Hello, World!
-##      20 + 20 = 40
+##      20 + 30 = 50
+
+
+puts {grouped string}
+puts $gStr
+        
+
+
+puts {formated string}
+puts $fStr
